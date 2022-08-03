@@ -1,0 +1,22 @@
+.azul{
+    color: #0F3C73 !important;
+}
+.naranja{
+    color: #FF6600;
+}
+.negro{
+    color: black !important;
+}
+.btn1{
+    color: #0F3C73 !important;
+}
+.btn2{
+    background-color: #FF6600 !important;
+    border: #FF6600 !important;
+}
+
+.text-nowrap
+{
+    color: #0F3C73;
+    width: 8rem;
+}

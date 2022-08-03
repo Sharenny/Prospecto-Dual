@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/boostrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/boostrap/css/stilos.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Formulario</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <form class="col-md-12 col-sm-12 col-xs-12 col-auto">
+            <div class="col-md-4 py-3">
+                <h1 class="row col-md-12 azul">Editar usuario</h1>
+            </div>
+            <div class="row border border-5 col-md-12 col-sm-12 col-xs-12 col-auto">
+                <h3 class=" col-auto naranja mx-4 py-3">Datos personales</h3>
+
+                <div class="row  text-wrap mx-3">
+
+                    <div class="col-md-2 col-xs-6 col-sm-4 col-auto  azul ">
+                        <span class="form-label azul h5">Nombre(s)</span><span class="naranja">*</span>
+                        <input type="text" class="form-control " id="nombre1" required placeholder="Cesar Manuel">
+                    </div>
+                    <div class="col-md-2 col-xs-6 col-sm-4 col-auto azul">
+                        <span class="form-label h5 col-sm-2 posicionRealtiva">Apellido paterno</span><span
+                            class="naranja">*</span>
+                        <input type="text" class="form-control" id="apellidoP" required placeholder="González">
+                    </div>
+
+                    <div class="col-md-2 col-xs-6 col-sm-4  col-auto azul  posicionRealtiva">
+                        <span class="form-label h5">Apellido materno</span><span class="naranja">*</span>
+                        <input type="text" class="form-control" id="apellidoM" required placeholder=" Hernández">
+                    </div>
+                    <div class="col-md-4  col-xs-12 col-sm-6 col-auto azul posicionRealtiva">
+                        <span class="form-label h5">Correo electrónico</span><span class="naranja">*</span>
+                        <input type="password" class="form-control " id="correo" required
+                            placeholder="cesarmanuelgonzalez@gmail.com">
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-md-3 col-xs-12 col-sm-8 col-auto azul posicionRealtiva">
+                            <span class="form-label h5 azul">Contraseña</span><span class="naranja">*</span>
+                            <input type="password" class="form-control negro" placeholder="**********">
+                            <img src="img/pestana.png" class="ojos ojos1">
+
+
+                        </div>
+
+                        <div class="col-md-3 col-sm-6  col-auto posicionRealtiva">
+                            <span class="form-label text-nowrap h5 azul">Confirmar contraseña</span><span
+                                class="naranja">*</span>
+                            <img src="img/abierto.png" class="ojos ojos2">
+                            <input type="password" class="form-control negro" placeholder="HGvfdss3421?">
+                        </div>
+                        <div id="textoconstrasena" class="form-label col-md-12 text-wrap  azul">
+                            <p class="fw-bolder"> La constraseña debe ser de al menos 8 posiciones. Debe contontener una
+                                letra mayúscula, una minúscula, un número y un carácter especial como %&$!.</p>
+
+                        </div>
+                    </div>
+                    <span
+                        class="row g-3 mx-1 col-md-10 border border-1 border-end-0 border-start-0 border-start-0"></span>
+
+                    <div class="py-3 col-md-12 ">
+                        <span class="naranja col-md-12 h3 ">Roles de usuario</span>
+                        <div class="py-3 mx-1 text-wrap ">
+                            <div class="form-check form-check-inline col-md-2">
+                                <input class="form-check-input " type="checkbox" id="clienteNew">
+                                <span>Nuevo cliente</span>
+                                <div class="boxcheck"></div>
+                            </div>
+                            <div class="form-check form-check-inline col-md-2">
+                                <input class="form-check-input" type="checkbox" id="clienteMos">
+                                <span>Mostrar clientes</span>
+                            </div>
+                            <div class="form-check form-check-inline col-md-2">
+                                <input class="form-check-input" type="checkbox" id="usuarioRe">
+                                <label class="form-check-label" for="registrar usuario">Registrar usuario</label>
+
+                            </div>
+                            <div class="form-check form-check-inline col-md-2">
+                                <input class="form-check-input" type="checkbox" id="usuarioMos">
+                                <span>Mostrar usuario</span>
+                            </div>
+                            <div class="form-check form-check-inline col-md-2">
+                                <input class="form-check-input" type="checkbox" id="consultarSal">
+                                <span>Consultar saldo</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-md-12 ">
+
+                        <div class="mx-1 text-wrap ">
+                            <div class="form-check form-check-inline col-md-2">
+                                <input class="form-check-input" type="checkbox" id="abonarSal">
+                                <span>Abonar saldo</span>
+                            </div>
+                            <div class="form-check form-check-inline col-md-2">
+                                <input class="form-check-input" type="checkbox" id="debitarSal">
+                                <span>Debitar saldo</span>
+                            </div>
+                            <div class="form-check form-check-inline col-md-2">
+                                <input class="form-check-input" type="checkbox" id="debitarSal1">
+                                <span>Debitar saldo</span>
+
+                            </div>
+                            <div class="form-check form-check-inline col-md-2">
+                                <input class="form-check-input" type="checkbox" id="depositos">
+                                <span>Depositos</span>
+                            </div>
+                            <div class="form-check form-check-inline col-md-2">
+                                <input class="form-check-input" type="checkbox" id="agregarRol">
+                                <span>Agregar Rol</span>
+                            </div>
+                        </div>
+                    </div>
+                    <span
+                        class="row g-3 mx-1 col-md-10 border border-1 border-end-0 border-start-0 border-start-0"></span>
+                    <div class="textoDatos"
+                        class="form-text col-md-12 text-wrap azul col-md-2 col-xs-6 col-sm-4 col-auto">
+                        <span class="naranja">*</span><label for="datosObligatorios">Datos Obligatorios</label>
+                    </div>
+                    <div>
+
+                    </div>
+                    <div
+                        class="py-4 mx-4 d-grid gap-2 d-md-flex justify-content-md-end col-md-10 col-sm-12 col-xs-12 col-auto">
+                        <button type="button"
+                            class=" btn1 col-xs-1 col-sm-2 col-md-2  btn btn-outline-info">Cancelar</button>
+                        <button class="btn2 btn-primary col-xs-1 col-sm-2 col-md-2 " type="button">Guardar</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="/src/js/main.js"></script>
+</body>
+
+</html>
